@@ -77,8 +77,8 @@
 
 @media screen and (max-width: 520px) {
   .face-img {
-    width: 50%;
-    height: 50%;
+    width: 80%;
+    height: 40%;
     margin: 10px auto;
   }
   .face-body-h1 {
