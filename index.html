@@ -3,11 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- <link rel="stylesheet" href="bootstrap-5.3.2-dist/css/bootstrap.css"> -->
+  <link rel="stylesheet" href="bootstrap-5.3.2-dist/css/bootstrap.css">
 
   <!-- I need to add website icon here -->
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/navbar.css">
+  <link rel="stylesheet" href="css/face.css">
   <title>Rolert Notes</title>
 </head>
 
@@ -25,22 +26,23 @@
                 <span class="bar"></span>
             </div>
             <div class="nav-list">
-                <div class="nav-list-container"><a href="#" class="nav-link"><img src="icons/category-svgrepo-com.svg" alt="category" class="nav-icon"></a></div>
+                <div class="nav-list-container"><a href="#" class="nav-link" id="category-icon"><img src="icons/category-svgrepo-com.svg" alt="category" class="nav-icon"></a></div>
             </div>
         </nav>
    </header>
 
+   <div class="face">
+    <div class="face-img"></div>
+    <div class="face-body">
+        <h1 class="face-body-h1">What Money Can't Buy Book</h1>
+        <p class="face-body-p">"What Money Can't Buy: The Moral Limits of the Market" challenges our assumptions about the role of money and explores the ethical boundaries of marketization in contemporary society.
+        </p>
+
+        <button type="button" class="btn btn-dark">Read</button>
+    </div>
+   </div>
 
 </body>
-
-
-<script>
-    const mobileMenuButton = document.getElementById('mobile-menu');
-    const navList = document.querySelector('.nav-list');
-    mobileMenuButton.addEventListener('click', () => {
-        navList.classList.toggle('active');
-    });
-</script>
 
 
 <script src="bootstrap-5.3.2-dist/js/bootstrap.bundle.js"></script>
