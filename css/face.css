@@ -42,3 +42,30 @@
 .btn-dark {
   margin-top: 40px;
 }
+
+@media screen and (max-width: 850px) {
+  .face {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 20px auto;
+  }
+
+  .face-img {
+    width: 50%;
+    height: 50%;
+  }
+
+  .face-body {
+    border-top: 0.2px solid rgb(121, 121, 121);
+    margin: 10px auto;
+    background: none;
+
+    margin: auto 16px;
+
+    border-bottom: 0.2px solid rgb(121, 121, 121);
+  }
+  .face-body-h1 {
+    font-size: 23px;
+  }
+}
