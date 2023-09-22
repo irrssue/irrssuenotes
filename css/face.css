@@ -41,6 +41,7 @@
 
 .btn-dark {
   margin-top: 40px;
+  text-transform: uppercase;
 }
 
 @media screen and (max-width: 850px) {
@@ -82,6 +83,7 @@
   }
   .face-body-h1 {
     font-size: 20px;
+    margin: 10px;
   }
   
   .face-body-p {
