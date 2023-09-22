@@ -39,6 +39,13 @@
   color: rgba(0, 0, 0, 0.658);
 }
 
+.date {
+  display: block;
+  padding-top: 25px;
+  text-transform: uppercase;
+  color: rgb(61, 61, 61);
+}
+
 .btn-dark {
   margin-top: 40px;
   text-transform: uppercase;
@@ -76,8 +83,18 @@
 }
 
 @media screen and (max-width: 520px) {
+  .logo-text {
+    font-size: 50px;
+  }
+  .nav-list {
+    margin: 5px auto;
+  }
+  .nav-icon {
+    max-width: 23px;
+  }
+
   .face-img {
-    width: 80%;
+    width: 40%;
     height: 40%;
     margin: 10px auto;
   }
@@ -88,9 +105,16 @@
   
   .face-body-p {
     padding: 5px;
-    font-size: 18px;
+    font-size: 15px;
   }
+
+  .btn-dark {
+    margin-top: 10px;
+  }
+
   .face-body {
-    margin: 0 3px;
+    margin: 10px auto;
+    padding: 10px 10px;
+    text-align: center;
   }
 }
