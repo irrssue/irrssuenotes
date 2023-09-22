@@ -26,11 +26,27 @@
 
   border-radius: 30px;
 
-  background: rgba(225, 225, 225, 0.558);
+  /* background: rgba(225, 225, 225, 0.224); */
+
+  border-right: 0.5px dashed black;
+  border-top:0.5px dashed black;
+  border-bottom: 0.5px dashed black;
 }
 
 .face-body-h1 {
   word-spacing: 3px;
+  font-family: var(--Main-Font);
+}
+
+.category {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  border-color: rgba(54, 207, 54, 0.39);
+}
+
+.category:hover {
+  color: rgb(0, 0, 0);
+  background: rgba(0, 128, 0, 0.174);
 }
 
 .face-body-p {
