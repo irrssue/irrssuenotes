@@ -21,6 +21,7 @@
 }
 
 .category {
+  display: block;
   text-decoration: none;
   color: rgb(0, 0, 0);
   border-color: rgba(54, 207, 54, 0.39);
