@@ -40,17 +40,6 @@
   font-family: var(--Header);
 }
 
-.category {
-  text-decoration: none;
-  color: rgb(0, 0, 0);
-  border-color: rgba(54, 207, 54, 0.39);
-}
-
-.category:hover {
-  color: rgb(0, 0, 0);
-  background: rgba(0, 128, 0, 0.174);
-}
-
 .face-body-p {
   padding: 20px;
   word-spacing: 2px;
