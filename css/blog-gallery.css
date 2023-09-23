@@ -35,6 +35,7 @@
 
 .blog-gallery-h1 {
   font-size: 23px;
+  font-family: var(--Header);
   margin: 20px 30px 6px 30px;
 }
 
@@ -42,7 +43,8 @@
   font-size: 16px;
   color: rgba(0, 0, 0, 0.845);
 
-  margin: 30px;
+  padding: 10px;
+  font-family: var(--Body);
 }
 
 .blog-gallery-img {

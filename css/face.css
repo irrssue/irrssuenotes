@@ -37,7 +37,7 @@
 
 .face-body-h1 {
   word-spacing: 3px;
-  font-family: var(--Main-Font);
+  font-family: var(--Header);
 }
 
 .category {
